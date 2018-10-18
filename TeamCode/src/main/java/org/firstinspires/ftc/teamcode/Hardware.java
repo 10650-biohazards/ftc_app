@@ -10,11 +10,11 @@ public class Hardware {
     /**
      * Motor creation
      */
-    DcMotor fright, fleft, bright, bleft, lift, extender, intake, flap, arm;
+    public DcMotor fright, fleft, bright, bleft, lift, extender, intake, flap, arm;
     /**
      * Servo creation
      */
-    Servo marker;
+    public Servo marker;
 
     /**
      * @param OP initializing drive train motors
